@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //韩冲
         initialize();
         iv.setBackgroundResource(R.drawable.ic_launcher);
         hd.setVisibility(View.INVISIBLE);
